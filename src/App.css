@@ -1,0 +1,101 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.Hello {
+  display: block !important;
+  margin-left: 0;
+  align-self: flex-start;
+  text-align: left;
+  margin-top: 50px;
+  background-image: url("./assets/manscv.webp");
+   /* public/bg.jpg */
+  /* background-image: url("./assets/profii.jpeg");  */
+  /* public/bg.jpg */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: #213547;
+  padding: 20px;
+}
+.About {
+  background-color: #dbd1d1;
+}
+.skill {
+  background-color: #988;
+}
+.portfolio {
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+}
+.block {
+  margin: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: "30%";
+  height: "230px";
+  font-size: x-large;
+}
+.pftext {
+  font-size: 30px;
+}
+.footer {
+  background-color: black;
+  display: flex;
+}
+.chfooter {
+  width: 30%;
+  margin: 20px;
+  padding: 28px;
+}
+#endbtn {
+  border-radius: 1px;
+  border: 3px solid white;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /* align-items: left; */
+  color: white;
+  font-size: "25px";
+}
