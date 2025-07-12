@@ -104,7 +104,7 @@
 import { useContext } from "react";
 import ProgressBar from "react-bootstrap/ProgressBar";
 import ThemeContext from "../context/theme";
-import myPic from "../assets/MyNewPic.png";
+import myPic from "../assets/MyNewPic.PNG";
 
 function About() {
   const { theme } = useContext(ThemeContext);
