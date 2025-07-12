@@ -4,7 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import { Routes, Route, BrowserRouter } from "react-router";
 import Portfolio from "./pages/Portfolio";
-import Contact from "./pages/contact";
+import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import "bootstrap/dist/css/bootstrap.min.css";

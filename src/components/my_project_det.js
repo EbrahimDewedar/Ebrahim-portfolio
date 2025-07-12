@@ -22,8 +22,8 @@ const my_projects = [
     description:
       "This is a responsive and modern personal portfolio website built with React.js and Bootstrap. It showcases my work as a Full Stack Web Developer, including a Home page, About section, list of Services, a Portfolio of projects with detailed views, and a Contact section. The site supports both light and dark themes using React Context and is fully responsive across all devices. Users can explore my featured projects, view the technologies used, and access live demos or GitHub links. The Contact section provides my email, phone, location, and direct links to my GitHub and LinkedIn profiles. The portfolio is designed to be clean, fast, and easy to navigate.",
     Tools_Used: ["HTML5", "CSS3", "Bootstrap", "JavaScript", "React"],
-    github: "#",
-    demo: "#",
+    github: "https://github.com/EbrahimDewedar/Ebrahim-portfolio",
+    demo: "https://github.com/EbrahimDewedar/Ebrahim-portfolio",
     image: portfolio,
   },
   {
