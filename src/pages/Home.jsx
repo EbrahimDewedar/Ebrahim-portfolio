@@ -37,6 +37,7 @@
 
 import { FaEnvelope, FaFileAlt } from "react-icons/fa";
 import myPic from "../assets/MyMinPic.JPG";
+import { Link } from "react-router";
 
 function Home() {
   return (
@@ -57,13 +58,13 @@ function Home() {
         </p>
 
         <div className="d-flex justify-content-center flex-wrap gap-3 mt-4">
-          <a
-            href="/contact"
+          <Link
+            to="/contact"
             className="btn btn-info text-light rounded-pill d-flex align-items-center px-4 py-2"
           >
             <FaEnvelope className="me-2" />
             Contact Me
-          </a>
+          </Link>
 
           <a
             href="https://drive.google.com/file/d/11KI2pgVkdeoOr5tX5J66R5RpniWfyz74/view?usp=sharing"

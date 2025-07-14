@@ -14,6 +14,7 @@ import Setting from "./pages/Setting";
 import Services from "./pages/ServiceList";
 import SingleCard from "./pages/SingleCard";
 import PortfolioSingleCard from "./pages/PortfolioSingleCard";
+import Footer from "./components/Footer"
 
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
 
           </Routes>
         </div>
+        <Footer/>
       </BrowserRouter>
     </ThemeContext.Provider>
   );
